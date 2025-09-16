@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example"> 
+        <div style="margin-left: 120px;" class="container-fluid"> 
+            <a class="navbar-brand" href="#"><img src="Screenshot 2025-09-16 230537.png" alt="Logo Speda">Speda</a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation"> 
+                <span class="navbar-toggler-icon"></span> </button> 
+                <div class="collapse navbar-collapse" id="navbarsExample02"> 
+                    <ul class="navbar-nav me-auto"> 
+                        <li class="nav-item"> 
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li> 
+                            <li class="nav-item"> <a class="nav-link" href="tambahMahasiswa.html">Tambah Mahasiswa</a> </li> </ul>  </div> </div> </nav>
+    <p style="margin-left: 140px; margin-top: 50px;" class="h2">Daftar Mahasiswa</p>
+    <nav class="navbar bg-body-tertiary">
+        <div style="margin-left: 130px;" class="container-fluid">
+            <form style="width: 1070px;" class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Cari</button>
+            </form>
+        </div>
+    </nav>
+    <div style="padding-left: 143px; padding-right: 150px;" class="bd-example m-0 border-0"> <table class="table table-dark table-striped-columns">
+  <thead>
+    <tr>
+      <th scope="col">No</th>
+      <th scope="col">NIM</th>
+      <th scope="col">Nama</th>
+      <th scope="col">Jenis Kelamin</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>123230139</td>
+      <td>Farhannivta Ramadhana</td>
+      <td>Laki Laki</td>
+      <td><button style="margin-left: 50px;" type="button" class="btn btn-primary">Update</button><button style="margin-left: 25px; margin-right: -80px;" type="button" data-bs-toggle="modal" data-bs-target="#iniModal" class="btn btn-danger">Delete</button></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>123230131</td>
+      <td>Vincentius Ariel</td>
+      <td>Laki Laki</td>
+      <td><button style="margin-left: 50px;" type="button" class="btn btn-primary">Update</button><button style="margin-left: 25px; margin-right: -80px;" data-bs-toggle="modal" data-bs-target="#iniModal" type="button" class="btn btn-danger">Delete</button></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>123230111</td>
+      <td>Puan Maharani</td>
+      <td>Perempuan</td>
+      <td><button style="margin-left: 50px;" type="button" class="btn btn-primary">Update</button><button style="margin-left: 25px; margin-right: -80px;" data-bs-toggle="modal" data-bs-target="#iniModal" type="button" class="btn btn-danger">Delete</button></td>
+    </tr>
+  </tbody>
+</table> </div>
+    <div class="modal" tabindex="-1" id="iniModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Hapus Data</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Apakah anda yakin menghapus mahasiswa?</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+        <button type="button" class="btn btn-danger">Hapus</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>
